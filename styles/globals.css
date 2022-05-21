@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .heading {
+      @apply  font-semibold   justify-center flex items-center w-full ;
+    }
+    .tag{
+      
+      @apply   font-semibold  pt-9 text-center space-y-5 ;
+    }
+  }
+  
